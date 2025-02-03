@@ -8,11 +8,15 @@
     "start": "node build/index.js"
   },
   "devDependencies": {
+    "@types/node": "^22.13.0",
+    "prisma": "^6.3.0",
     "tsc-watch": "^6.2.1",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   },
   "dependencies": {
     "@apollo/server": "^4.11.3",
+    "@prisma/client": "^6.3.0",
     "@types/express": "^5.0.0",
     "express": "^4.21.2",
     "graphql": "^16.10.0"
